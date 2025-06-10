@@ -6,8 +6,7 @@ import AppContextProvider from "./context/AppContext.jsx";
 import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <HashRouter>
-    {/* basename="/Doctor-Booking-App" */}
+  <HashRouter basename="/Doctor-Booking-App">
     <AppContextProvider>
       <App />
     </AppContextProvider>
